@@ -15,6 +15,6 @@ class ProductController extends Controller
             ['title' => 'Train to Busan', 'duration' => 107, 'category' => 'horror']
         ];
 
-        return view('movies', compact('products'));
+        return view('movies', compact('movies'));
     }
 }
